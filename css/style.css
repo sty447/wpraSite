@@ -5,5 +5,8 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rbga(4,9,30,0.7),rbga(4,9,30,0.7)), url()
+    background-image: linear-gradient(rbga(4,9,30,0.7),rbga(4,9,30,0.7)), url(img/FrontDesk.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
