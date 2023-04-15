@@ -78,11 +78,11 @@ nav{
     transition: 1s;
 }
 
-/* Removing x and = sign */
+/* Removing x and = sign *//*
 nav .fa{
     display: none;
-}
-/* For phones */ 
+}*/
+/* For phones 
 @media(max-width: 700px){
     .text-box h1{
         font-size:20px;
@@ -108,4 +108,4 @@ nav .fa{
     .nav-links ul{
         padding: 30px;
     }
-}
+}*/
