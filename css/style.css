@@ -16,6 +16,7 @@ nav{
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
+    background-color: #da221554;
 }
 .nav-links{
     flex: 1;
@@ -30,7 +31,7 @@ nav{
 .nav-links ul li a{ /* You can change the font size of headers here */
     color: #fff;
     text-decoration: none;
-    font-size: 8px;
+    font-size: 20px;
 }
 .nav-links ul li::after{
     content: '';
@@ -43,6 +44,20 @@ nav{
 }
 .nav-links ul li::hover::after{
     width: 100%;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.frontLogo{
+    display: flex;
+    align-items: center;
+    padding: 10px 50px;  
+}
+.frontLogo h2{
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 0 20px;
 }
 .text-box{
     width: 90%;
