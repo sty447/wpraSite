@@ -1,40 +1,108 @@
-<div class="row">
-    <div class="column">
-      <div class="card">
-        <img src="img1.jpg" alt="Jane" style="width:100%">
-        <div class="container">
-          <h2>Jane Doe</h2>
-          <p class="title">CEO &amp; Founder</p>
-          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-          <p>example@example.com</p>
-          <p><button class="button">Contact</button></p>
-        </div>
-      </div>
-    </div>
-  
-    <div class="column">
-      <div class="card">
-        <img src="img2.jpg" alt="Mike" style="width:100%">
-        <div class="container">
-          <h2>Mike Ross</h2>
-          <p class="title">Art Director</p>
-          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-          <p>example@example.com</p>
-          <p><button class="button">Contact</button></p>
-        </div>
-      </div>
-    </div>
-  
-    <div class="column">
-      <div class="card">
-        <img src="img3.jpg" alt="John" style="width:100%">
-        <div class="container">
-          <h2>John Doe</h2>
-          <p class="title">Designer</p>
-          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-          <p>example@example.com</p>
-          <p><button class="button">Contact</button></p>
-        </div>
-      </div>
-    </div>
-  </div>
+<!DOCTYPE html>
+<html>
+<head> 
+    <meta name ="viewport" content ="with=device-width, initial-scale=1.0"> 
+     <title>Western Pacific Robotics Academy</title> 
+     <link rel="stylesheet" href="css/style.css"> 
+     <link rel="stylesheet" href="css/aboutstyle.css"> 
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html">
+                <div class = "frontLogo">
+                    <img src="img/LogoSlit.png" width = "150" height = "150">
+                    <h2> Western Pacific Robotics Academy</h2>
+                </div>
+            </a> 
+            <div class = "nav-links" id = "navLinks">
+              <i class="fa fa-times" onclick = "hideMenu()" ></i>  <!-- closing icon -->
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="program.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick = "showMenu()"></i> <!--menu bar--> 
+        </nav>
+        <div class="row">
+            <div class="column">
+              <div class="card">
+                <img src="img/winson.jpg" alt="Xinghao" style="width:100%">
+                <div class="container">
+                  <h2>Xinghao Li</h2>
+                  <p class="title">Coach</p>
+                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>xinghao@orionwpra.com</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+          
+            <div class="column">
+              <div class="card">
+                <div class ="mugshot">
+                    <img src="img/winson.jpg" alt="Callie" style="width:100%">
+                </div>
+                <div class="container">
+                  <h2>Callie Cheng</h2>
+                  <p class="title">Coach</p>
+                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>callie@orionwpra.com</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+          
+            <div class="column">
+              <div class="card">
+                <div class ="mugshot">
+                    <img src="img/winson.jpg" alt="Winson" style="width:100%">
+                </div>
+                <div class="container">
+                  <h2>Winson Liang</h2>
+                  <p class="title">Coach</p>
+                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>winson@orionwpra.com</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <div class ="mugshot">
+                        <img src="img/winson.jpg" alt="Nevin" style="width:100%">
+                    </div>
+                  <div class="container">
+                    <h2>Nevin Li</h2>
+                    <p class="title">Advisor</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>nevin@orionwpra.com</p>
+                    <p><button class="button">Contact</button></p>
+                  </div>
+                </div>
+              </div>
+          </div>
+    </section>
+
+   <!------ JavaScript for Toggle Menu ----> 
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html> 
+
+
