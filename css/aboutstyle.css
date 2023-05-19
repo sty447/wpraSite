@@ -15,7 +15,14 @@
       display: block;
     }
   }
-  
+  .aboutTitle{
+    text-align: center;
+    transform: translate(0%, 30%);
+  }
+  .aboutTitle p{
+    color: rgb(245, 245, 245);
+    font-size: 80px;
+  }
   /* Add some shadows to create a card effect */
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
