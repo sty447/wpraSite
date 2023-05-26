@@ -15,18 +15,23 @@ body {
     overflow: hidden;
 }
 
-header {
+/*===============================    Header     =============================*/
+/*header {
     display: flex;
     justify-content: space-between;
-    /* margin: 10px 6%; */
-    /* cover full width of page */
     align-items: center;
-    background-color: #81251f54;
+    background-color: #000000;
+}
+#logoName{
+    display: block;
+    width: 100%; !* 可根据需要调整宽度 *!
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
-/* ------------------------------- */
+
 nav {
-    /* display: inline-block; */
     padding: 2% 6%;
     width: 50%;
     align-items: center;
@@ -35,16 +40,25 @@ nav {
 
 nav ul {
     display: flex;
-    /* flex-wrap: wrap; */
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
-nav li {
+nav ul li {
     flex-basis: 25%;
     text-align: center;
     position: relative;
+}
+
+nav .underline{
+    position: absolute;
+    top: 20px;
+    left: 10%;
+    display: inline-block;
+    width: 50%;
+    height: 20px;
+    border-bottom: #f44336 3px solid;
 }
 
 nav a {
@@ -110,7 +124,10 @@ a {
     flex-wrap: wrap;
     width: 300px;
     margin: 0 20px;
-}
+}*/
+
+/*===============================    Main     =============================*/
+
 
 .text-box {
     width: 90%;
