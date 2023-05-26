@@ -1,0 +1,131 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+}
+#logoName{
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+nav {
+    padding: 2% 6%;
+    width: 50%;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    flex-basis: 25%;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+}
+
+nav .underline{
+    position: absolute;
+    top: 40px;
+    left: 20%;
+    display: inline-block;
+    width: 60%;
+    border-bottom: #f44336 3px solid;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav li:hover {
+    background-color: rgb(211, 63, 63);
+    transition: 1s;
+}
+nav li:not(:hover){
+    transition: 1s;
+}
+
+.navSubMenu{
+    border-radius: 10px 10px 0 0;
+}
+.navSubMenu:hover{
+    border-radius: 10px 10px 0 0;
+}
+.navSubMenu ul{
+    display: none;
+}
+.navSubMenu:hover ul{
+    display: block;
+}
+
+.navSubMenu:not(:hover){
+    border-radius: 10px;
+    transition: 1s;
+}
+nav ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    display: block;
+    opacity: 0;
+    transition: opacity 0s;
+}
+.navSubMenu ul li{
+    width: 100%;
+    border-top: 1px solid white;
+}
+.navSubMenu li{
+    background-color: rgb(216, 101, 101);
+    border-radius: 0;
+}
+.navSubMenu li:last-child{
+    border-radius: 0 0 10px 10px;
+}
+.navSubMenu li:hover{
+    background-color: #cbcbcb;
+    transition: 0.25s;
+}
+.navSubMenu:hover>ul {
+    opacity: 1;
+    display: block;
+    transition: opacity 1s;
+}
+
+
+
+
+
+
+
+
+
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.logo h1 {
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 0 20px;
+}
