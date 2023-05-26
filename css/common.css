@@ -1,3 +1,26 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato',sans-serif;
+}
+/*==============================  Body   ================================*/
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/FrontDesk.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+.wrapper{
+    position: relative;
+    height: 100%
+}
+
+
+/*==============================  Header   ================================*/
 header {
     display: flex;
     justify-content: space-between;
@@ -75,18 +98,18 @@ nav li:not(:hover){
     transition: 0.5s;
 }
 
-.navSubMenu:not(:hover){
-    border-radius: 10px;
-    transition: 2s;
-}
 .navSubMenu ul {
+    display: none;
     position: absolute;
     top: 100%;
     left: 0;
     width: 100%;
-    display: block;
     opacity: 0;
     transition: opacity 0s;
+}
+.navSubMenu:not(:hover){
+    border-radius: 10px;
+    transition: 2s;
 }
 .navSubMenu ul li{
     width: 100%;
@@ -117,17 +140,7 @@ nav li:not(:hover){
     border-radius: 0 0 10px 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-a {
+header a {
     color: #fff;
     text-decoration: none;
 }
@@ -143,3 +156,32 @@ a {
     width: 300px;
     margin: 0 20px;
 }
+/*===END Header===*/
+
+
+
+/*==============================  Footer   ================================*/
+
+footer{
+    display: flex;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(to bottom, rgba(58, 58, 54, 0.8), rgba(58, 58, 54, 0.3));
+    /*background-color: pink;*/
+    padding: 20px;
+    margin-top: 10px;
+}
+footer nav{
+    margin: 0 auto;
+}
+
+.block{
+    height: 1000px;
+    width: 200px;
+    background-color: pink;
+
+}
+
+/*===END Footer===*/
