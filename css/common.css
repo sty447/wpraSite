@@ -2,7 +2,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #000000;
+    background-color: rgba(0,0,0,0.5);
 }
 #logoName{
     display: block;
@@ -10,6 +10,10 @@ header {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+.logo img{
+    width :100px;
+    height: 90px;
 }
 
 nav {
