@@ -68,13 +68,14 @@ nav li:not(:hover){
 }
 .navSubMenu:hover ul{
     display: block;
+    transition: 0.5s;
 }
 
 .navSubMenu:not(:hover){
     border-radius: 10px;
-    transition: 1s;
+    transition: 2s;
 }
-nav ul ul {
+.navSubMenu ul {
     position: absolute;
     top: 100%;
     left: 0;
@@ -91,18 +92,27 @@ nav ul ul {
     background-color: rgb(216, 101, 101);
     border-radius: 0;
 }
-.navSubMenu li:last-child{
+.navSubMenu li:hover a{
+    background-color: white;
+    color: red;
+    transition: 1s;
+}
+
+.navSubMenu li:last-child a{
     border-radius: 0 0 10px 10px;
 }
-.navSubMenu li:hover{
-    background-color: #cbcbcb;
-    transition: 0.25s;
+.navSubMenu li:last-child a:hover{
+    border-radius: 0 0 10px 10px;
 }
 .navSubMenu:hover>ul {
     opacity: 1;
     display: block;
     transition: opacity 1s;
 }
+.navSubMenu li:last-child{
+    border-radius: 0 0 10px 10px;
+}
+
 
 
 
