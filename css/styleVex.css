@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Lato', sans-serif; */
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+    scrollbar-width: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 10px 6%; */
+    /* cover full width of page */
+    align-items: center;
+    background-color: #81251f54;
+}
+
+/* ------------------------------- */
+
+
+/* vex description */
+.vex-description-section {
+        padding: 2em;
+}
+
+.vex-description-container {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.vex-description {
+    margin: 3em auto;
+    width: 70%;
+    margin-top: 1em;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-family: "aktiv-grotesk",
+            'Open Sans',
+            'Helvetica Neue',
+            Helvetica,
+            Arial,
+            sans-serif;
+}
+
+.vex-description p {
+    margin-top: 1em;
+    font-style: normal;
+    font-weight: 400;
+    color: #333;
+    font-family: "aktiv-grotesk",
+            'Open Sans',
+            'Helvetica Neue',
+            Helvetica,
+            Arial,
+            sans-serif;
+}
+
+.vex-description-imgs {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.vex-description-imgs img {
+    width: 40%;
+}
+
+
+/* vex video */
+.vex-video-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;;
+
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/FrontDesk.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: #eee;
+    font-size: 1.2em;
+    font-family: "aktiv-grotesk",
+            'Open Sans',
+            'Helvetica Neue',
+            Helvetica,
+            Arial,
+            sans-serif;
+}
+
+.vex-video-section h2 {
+    margin: 1em auto;
+
+}
+
+.vex-video-section p {
+    width: 100%;
+    margin-bottom: 2em;
+    text-align: center;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 1.3em;
+    font-size: 0.85em;
+    font-family: "aktiv-grotesk",
+            'Open Sans',
+            'Helvetica Neue',
+            Helvetica,
+            Arial,
+            sans-serif;
+}
+
+
+
+.about-video {
+    width: 60%;
+    margin: 30px auto;
+    position: relative;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    height: 0;
+    width: 100%;
+}
+
+.about-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.about-text {
+    text-align: left;
+    width: 80vw;
+    padding: 10px 10px;
+}
+
+.about-text-div {
+    background-color: rgba(172, 46, 46, 0.37);
+}
+
+.about-text-div h1 {
+    text-align: center;
+    padding: 10px 10px;
+}
