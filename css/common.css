@@ -20,7 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0,0,0);
+    background-color: rgba(21,21,21);
 }
 #logoName{
     display: block;
@@ -74,10 +74,10 @@ nav a {
 
 nav li:hover {
     background-color: rgb(211, 63, 63);
-    transition: 1s;
+    transition: 0.5s;
 }
 nav li:not(:hover){
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .navSubMenu{
@@ -88,6 +88,7 @@ nav li:not(:hover){
 }
 .navSubMenu ul{
     display: none;
+    z-index: 2;
 }
 .navSubMenu:hover ul{
     display: block;
@@ -118,7 +119,7 @@ nav li:not(:hover){
 .navSubMenu li:hover a{
     background-color: white;
     color: red;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .navSubMenu li:last-child a{
@@ -162,23 +163,70 @@ main{
 
 footer{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
     bottom: 0;
     width: 100%;
-    height: 250px;
+    height: auto;
     /*background: linear-gradient(to bottom, rgba(58, 58, 54, 0.8), rgba(58, 58, 54, 0.3));*/
-    background-color: black;
-    padding: 20px;
-    margin-top: 10px;
+    background-color: rgb(21, 21, 21);
+    padding: 40px 0;
+    color: #ffffff;
 }
-footer nav{
-    margin: 0 auto;
+footer a{
+    color: #fff;
+    text-decoration: none;
 }
 
-.block{
-    height: 1000px;
-    width: 200px;
-    background-color: pink;
+.footerNav{
+    font-size: 15px;
+    margin-bottom: 20px;
 }
+.footerNav a:hover{
+    text-decoration: underline;
+}
+.footerNav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.footerNav ul li{
+    margin: 15px;
+}
+
+/*.footerNav ul li:last-child{
+    margin-right: 0;
+}*/
+
+.footerLogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.footerLogo img{
+    width: 68px;
+    height: 63px;
+    margin-right: 10px;
+}
+.footerLogo h2{
+    display: block;
+    font-size: 1em;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.copyright{
+    font-size: 12px;
+    font-family: sans-serif;
+    line-height: 1.2;
+    text-align: center;
+}
+
+
+
+
+
 
 /*===END Footer===*/
