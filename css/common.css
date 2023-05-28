@@ -193,12 +193,15 @@ footer a{
     justify-content: center;
 }
 .footerNav ul li{
-    margin: 15px;
+    line-height: 0.3em;
+    padding: 15px;
+    border-right: 2px solid #00a4ff;
 }
 
-/*.footerNav ul li:last-child{
-    margin-right: 0;
-}*/
+.footerNav ul li:last-child{
+    padding-right: 0;
+    border: none;
+}
 
 .footerLogo {
     display: flex;
