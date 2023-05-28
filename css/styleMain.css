@@ -1,0 +1,56 @@
+/*
+
+main{
+
+}*/
+.bodyContent{
+    height: 1000px;
+    width: 100%;
+}
+
+.content1{
+    position: relative;
+    height: 26em;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.darkBG{
+    background-color: rgba(0,0,0, 0.5);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+
+
+.c1_description{
+    width: 70%;
+    height: 100%;
+    margin: 6em auto 4em 20%;
+    vertical-align: center;
+    font-family: "aktiv-grotesk",
+    'Open Sans',
+    'Helvetica Neue',
+    Helvetica,
+    Arial,
+    sans-serif;
+}
+
+.c1_description h1{
+    color: #61aaff;
+    margin: 20px 0;
+    font-size: 3em;
+    white-space: nowrap;
+}
+.c1_description ul{
+    margin-left: 3em;
+    /*list-style: none;*/
+    color: #ffffff;
+    font-size: 1.3em;
+
+}
+.c1_description ul li{
+    margin-bottom: 8px;
+    white-space: nowrap;
+}
