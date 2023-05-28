@@ -8,11 +8,6 @@
 body {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/FrontDesk.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    color: #fff;
 }
 .wrapper{
     position: relative;
@@ -25,7 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0);
 }
 #logoName{
     display: block;
@@ -33,10 +28,11 @@ header {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    font-size: 1.3em;
 }
 .logo img{
-    width :100px;
-    height: 90px;
+    width :90px;
+    height: 80px;
 }
 
 nav {
@@ -161,7 +157,6 @@ header a {
 main{
     height: 100vh;
 }
-
 
 /*==============================  Footer   ================================*/
 
