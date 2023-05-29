@@ -64,7 +64,6 @@ main{
 .video-container{
     width: 60%;
     height: 100%;
-    background-color: pink;
     margin: 0 auto;
 }
 .video-container iframe{
