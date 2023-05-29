@@ -1,34 +1,20 @@
-* {
-    margin: 0;
-    padding: 0;
-    /* font-family: 'Lato', sans-serif; */
+
+.learn-more {
+    font-size: 13px;
+    width:fit-content;
+    padding: 8px 10px;
+    background-color: #0096ff;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 0.2em;
+    display: inline-block;
+    line-height:normal;
 }
 
-body {
-    min-height: 100vh;
-    width: 100%;
+.learn-more:after {
+    content: ">";
+    margin-left: 10px; 
 }
-
-::-webkit-scrollbar {
-    display: none;
-}
-
-/* Hide scrollbar for IE, Edge and Firefox */
-html {
-    scrollbar-width: none;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    /* margin: 10px 6%; */
-    /* cover full width of page */
-    align-items: center;
-    background-color: #81251f54;
-}
-
-/* ------------------------------- */
-
 
 /* vex description */
 .vex-description-section {
@@ -37,7 +23,6 @@ header {
 
 .vex-description-container {
     width: 100%;
-    text-align: center;
     box-sizing: border-box;
 }
 
@@ -55,17 +40,23 @@ header {
             sans-serif;
 }
 
+.vex-description h2 {
+    text-align: center;
+}
+
 .vex-description p {
     margin-top: 1em;
     font-style: normal;
     font-weight: 400;
     color: #333;
+    text-align: left;  
     font-family: "aktiv-grotesk",
             'Open Sans',
             'Helvetica Neue',
             Helvetica,
             Arial,
             sans-serif;
+    margin-bottom: 1em;
 }
 
 .vex-description-imgs {
@@ -109,7 +100,7 @@ header {
 .vex-video-section p {
     width: 100%;
     margin-bottom: 2em;
-    text-align: center;
+    text-align: left;
     font-style: normal;
     font-weight: 100;
     line-height: 1.3em;
@@ -159,4 +150,42 @@ header {
 .about-text-div h1 {
     text-align: center;
     padding: 10px 10px;
+}
+
+
+/* v5 description */
+.v5-description-imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%
+}
+
+.v5-description {
+    font-size: 1.2em;
+    margin: 2em auto;
+    width: 70%;
+    font-family: "aktiv-grotesk",
+            'Open Sans',
+            'Helvetica Neue',
+            Helvetica,
+            Arial,
+            sans-serif;
+}
+
+.v5-description h2 {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
+.v5-description p{
+    text-align: left;
+    color: #555;
+    line-height: 1.3em;
+    margin-bottom: 1em;
+}
+
+.v5-description-imgs img {
+    width: 25%;
 }

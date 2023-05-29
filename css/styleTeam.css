@@ -1,0 +1,105 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+.about-team-section {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/RobotDrive.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    color: #fff;
+}
+
+.about-team-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-team-container h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-team-content {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.about-team-content p {
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+
+
+
+.team-member-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fefdfd;
+}
+
+.team-member-section .team-member-header {
+    margin-bottom: 20px;
+}
+
+.team-memer-header h2 {
+    font-size: 2em;
+    font-family: 'Lato';
+}
+
+.team-member-list .team{
+    margin: 2em auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.team-member {
+    width: 80%;
+    height: 350px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffe766;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.team-member-title {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.team-member-experience {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left
+}
+.equipment-environment {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.equipment-environment-image {
+    width: calc(33.33% - 10px);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
