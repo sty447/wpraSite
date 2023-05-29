@@ -3,11 +3,12 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Western Pacific Robotics Academy</title>
-    <link rel="stylesheet" href="css/styleMain.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/styleTeam.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato"
       rel="stylesheet"
     />
     <link
@@ -16,39 +17,124 @@
     />
   </head>
   <body>
-    <header>
-      <a href="index.html">
-        <div class="logo">
-          <img src="img/logo.png" width="100" height="150" />
-          <h1>Western Pacific Robotics Academy</h1>
-        </div>
-      </a>
-      <nav class="nav-links">
-        <ul>
-          <li><a href="index.html">HOME</a></li>
-          <li>
-            <a href="about.html">ABOUT</a>
-            <ul>
-              <li>
-                <a href="team.html">Team</a>
-              </li>
-              <li>
-                <a href="vex.html">VEX</a>
-              </li>
-            </ul>
-          </li>
-          <li><a href="program.html">PROGRAM</a></li>
-          <li><a href="blog.html">BLOG</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-        <!--menu bar-->
-      </nav>
-    </header>
+    <div class="wrapper">
+      <header>
+        <a href="index.html">
+          <div class="logo">
+            <img src="img/LogoSlit-small.png" alt="LogoSlit" />
+            <h2 id="logoName">Western Pacific <br> Robotics Academy</h2>
+          </div>
+        </a>
+        <nav class="nav-links">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li class="navSubMenu"><a href="about.html">ABOUT</a><span class="underline"></span>
+              <ul>
+                <li>
+                  <a href="team.html">Team</a>
+                </li>
+                <li>
+                  <a href="vex.html">VEX</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="program.html">PROGRAM</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+      </header>
 
-    <section>
-      <div class="text-box">
-        <p>PAGE UNDER CONSTRUCTION</p>
+      <section class="about-team-section">
+        <div class="about-team-container">
+          <h2>About Western Pacific</h2>
+          <div class="about-team-content">
+            <p>
+              We are a VEX Robotic Education organization dedicated to providing children with hands-on experience in
+              robotics. Our mission is to inspire and educate the next generation of engineers and innovators.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+    
+    
+    <section class="team-member-section">
+      <div class="team-memer-header">
+        <h2>Our Team Member</h2>
+      </div>
+      <div class="team-member-list">
+        <div class="team">
+          <div class="team-member">
+            <img src="img/headshot.jpg" alt="Team Member 1">
+            <div class="team-member-name">John Doe</div>
+            <div class="team-member-title">Robotics Engineer</div>
+            <div class="team-member-experience">
+              John has 5 years of experience in robotics education and has trained over 100 students.
+            </div>
+          </div>
+    
+          <div class="team-member">
+            <img src="img/headshot.jpg" alt="Team Member 1">
+            <div class="team-member-name">Jane Smith</div>
+            <div class="team-member-title">STEM Educator</div>
+            <div class="team-member-experience">
+              Jane has a background in STEM education and specializes in teaching robotics to children.
+            </div>
+          </div>
+    
+          <div class="team-member">
+            <img src="img/headshot.jpg" alt="Team Member 1">
+            <div class="team-member-name">Mike Johnson</div>
+            <div class="team-member-title">Software Developer</div>
+            <div class="team-member-experience">
+              Mike has developed various software applications for robotics and has a deep understanding of
+              programming languages.
+            </div>
+          </div>
+    
+          <div class="team-member">
+            <img src="img/headshot.jpg" alt="Team Member 1">
+            <div class="team-member-name">Sarah Davis</div>
+            <div class="team-member-title">Mechanical Engineer</div>
+            <div class="team-member-experience">
+              Sarah has expertise in mechanical design and has designed robotic systems for competitions.
+            </div>
+          </div>
+        </div>
       </div>
     </section>
+    
+    <div class="section">
+      <div class="section-title">
+        <h2>Equipment and Environment</h2>
+      </div>
+      <div class="team-member-list">
+        <div class="equipment-environment">
+          <div class="equipment-environment-image" style="background-image: url('environment1.jpg');"></div>
+          <div class="equipment-environment-image" style="background-image: url('environment2.jpg');"></div>
+          <div class="equipment-environment-image" style="background-image: url('environment3.jpg');"></div>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ullamcorper justo, id posuere arcu.
+          Nullam rhoncus mauris non dui sodales, id dignissim metus cursus. Suspendisse non semper erat, vitae
+          sagittis dui. Proin at felis tincidunt, interdum lectus ut, consectetur nulla. Nam sit amet consequat
+          lorem, in feugiat tortor. Nullam ut congue metus. In hac habitasse platea dictumst. Fusce accumsan
+          ultrices mi, in ullamcorper mi scelerisque ac. Sed non venenatis est. Phasellus feugiat dignissim dolor,
+          vitae scelerisque tellus dapibus vitae. Maecenas suscipit bibendum tortor, id consectetur urna faucibus
+          vel.</p>
+        <p>Quisque lacinia aliquet tristique. Donec posuere auctor facilisis. Phasellus ac felis at orci sagittis
+          dictum. Nunc sed gravida massa. Proin semper lobortis lectus, sit amet condimentum odio pharetra ut.
+          Maecenas scelerisque dui in fermentum feugiat. Fusce cursus lobortis elit vitae sagittis. Phasellus
+          ultrices placerat vestibulum. Sed vulputate risus leo, ac rutrum tortor luctus eget. Fusce gravida
+          viverra nunc, ut vulputate metus pharetra sed. Donec dapibus eros sit amet lectus laoreet egestas.
+          Curabitur volutpat augue vitae leo fermentum, a posuere ex blandit. Nam ut consectetur leo. Praesent
+          vitae ipsum nunc. Donec sollicitudin risus nunc, a luctus lorem consequat id.</p>
+      </div>
+    </div>
+    
+
+
   </body>
 </html>
