@@ -175,48 +175,60 @@ main{
     padding: 40px 0;
     color: #ffffff;
 }*/
-footer{
-    display: block;
+
+
+.footerContainer {
     position: relative;
-    bottom: 0em;
-}
-.footerContainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
     background-color: rgb(21, 21, 21);
-    padding: 40px 0;
-    color: #ffffff;
+    width: 100%;
+    height: 250px;
+    padding: 50px 0;
 }
-footer a{
-    color: #fff;
+
+.footerNav {
+    width: 400px;
+    margin-left: 10%;
+}
+
+.footerNav a {
+    color: #ffffff;
     text-decoration: none;
 }
 
-.footerNav{
-    font-size: 15px;
-    margin-bottom: 20px;
-}
-.footerNav a:hover{
-    text-decoration: underline;
-}
-.footerNav ul{
-    list-style: none;
+.footerNav ul {
     display: flex;
     justify-content: center;
+    list-style: none;
+    line-height: 20px;
+    width: auto;
 }
-.footerNav ul li{
-    line-height: 0.3em;
-    padding: 15px;
+
+.footerNav ul li {
+    padding: 10px;
+    font-size: 1em;
     border-right: 2px solid #00a4ff;
 }
 
-.footerNav ul li:last-child{
-    padding-right: 0;
+.footerNav ul li:last-child {
     border: none;
+}
+/*========footer context=========*/
+.footerAddress{
+    margin: 20px 0 20px 10%;
+    width: 400px;
+    height: auto;
+    background-color: white;
+}
+
+
+/*  ===========  footer logo =============  */
+.footerLogoContainer {
+    position: absolute;
+    right: 15%;
+    top: 50px;
+    height: 150px;
+    width: 350px;
+    /*background-color: red;*/
 }
 
 .footerLogo {
@@ -225,22 +237,28 @@ footer a{
     align-items: center;
     margin-bottom: 20px;
 }
-.footerLogo img{
-    width: 68px;
-    height: 63px;
-    margin-right: 10px;
+
+.footerLogoContainer a {
+    color: white;
+    text-decoration: none;
 }
-.footerLogo h2{
+
+.footerLogo img {
+    width: 150px;
+    height: 150px;
+}
+
+.footerLogo h2 {
     display: block;
-    font-size: 1em;
+    font-size: 1.3em;
     font-weight: bold;
     white-space: nowrap;
 }
+
+/*  ======== copyright ======== */
 .copyright{
-    font-size: 12px;
-    font-family: sans-serif;
-    line-height: 1.2;
-    text-align: center;
+    color: white;
+    margin-left: 10%;
 }
 
 
@@ -249,3 +267,81 @@ footer a{
 
 
 /*===END Footer===*/
+
+
+@media(max-width: 900px){
+    footer{
+        display: block;
+        position: relative;
+        bottom: 0;
+    }
+    .footerContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        background-color: rgb(21, 21, 21);
+        padding: 40px 0;
+        color: #ffffff;
+    }
+    footer a{
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .footerNav{
+        font-size: 15px;
+        margin-bottom: 20px;
+        margin-left: 0;
+
+    }
+    .footerNav a:hover{
+        text-decoration: underline;
+    }
+    .footerNav ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+    .footerNav ul li{
+        line-height: 0.3em;
+        padding: 15px;
+        border-right: 2px solid #00a4ff;
+    }
+
+    .footerNav ul li:last-child{
+        padding-right: 0;
+        border: none;
+    }
+    .footerLogoContainer{
+        position: static;
+        width: auto;
+        background-color: rgb(21,21,21);
+    }
+    .footerLogo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .footerLogo img{
+        width: 68px;
+        height: 63px;
+        margin-right: 10px;
+    }
+    .footerLogo h2{
+        display: block;
+        font-size: 1em;
+        font-weight: bold;
+        white-space: nowrap;
+    }
+    .copyright{
+        font-size: 12px;
+        font-family: sans-serif;
+        line-height: 1.2;
+        text-align: center;
+        margin: 0;
+    }
+}
