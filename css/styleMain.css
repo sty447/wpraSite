@@ -63,6 +63,7 @@ main{
 }
 .video-container{
     width: 60%;
+    min-width: 25em;
     height: 100%;
     margin: 0 auto;
 }
