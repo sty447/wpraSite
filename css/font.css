@@ -1,0 +1,22 @@
+.fa-facebook:hover{
+    color: #3f63ab;
+    opacity: 1;
+}
+
+.fa-weixin:hover{
+    background: linear-gradient(180deg, #3de174,#3de174,#E5E5E5FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-instagram:hover{
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888, #7a1fa2, #432372, #232526);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-youtube:hover{
+    color: #fc0000;
+    background-color: #fc0000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
