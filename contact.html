@@ -15,91 +15,95 @@
             href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
     />
     <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/styleContact.css">
+    <script src="https://kit.fontawesome.com/5902eaa325.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<!--<header>
-    <a href="index.html">
-        <div class="logo">
-            <img src="img/logo.png" width="100" height="150"/>
-            <h1>Western Pacific Robotics Academy</h1>
-        </div>
-    </a>
-    <nav class="nav-links">
-        <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li>
-                <a href="about.html">ABOUT</a>
-                <ul>
-                    <li>
-                        <a href="team.html">Team</a>
-                    </li>
-                    <li>
-                        <a href="vex.html">VEX</a>
-                    </li>
-                </ul>
-            </li>
-            <li><a href="program.html">PROGRAM</a></li>
-            <li><a href="blog.html">BLOG</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-        &lt;!&ndash;menu bar&ndash;&gt;
-    </nav>
-</header>-->
-<header>
-    <a href="index.html">
-        <div class="logo">
-            <img src="img/LogoSlit-small.png" alt="LogoSlit"/>
-            <h2 id="logoName">Western Pacific <br> Robotics Academy</h2>
-        </div>
-    </a>
-    <nav class="nav-links">
-        <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li class="navSubMenu"><a href="about.html">ABOUT</a>
-                <ul>
-                    <li>
-                        <a href="team.html">Team</a>
-                    </li>
-                    <li>
-                        <a href="vex.html">VEX</a>
-                    </li>
-                </ul>
-            </li>
-            <li><a href="program.html">PROGRAM</a></li>
-            <li><a href="blog.html">BLOG</a></li>
-            <li><a href="contact.html">CONTACT</a><span class="underline"></span></li>
-        </ul>
-        <!--menu bar-->
-    </nav>
-</header>
 
-<section>
-    <div class="text-box">
-        <p>PAGE UNDER CONSTRUCTION</p>
-    </div>
-</section>
-
-<footer>
-    <div class="footerNav">
-        <ul>
-            <li><a href="index.html">HOME</a><span class="underline"></span></li>
-            <li><a href="team.html">ABOUT</a></li>
-            <li><a href="program.html">PROGRAM</a></li>
-            <li><a href="blog.html">BLOG</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-    </div>
-    <div>
+    <header>
         <a href="index.html">
-            <div class="footerLogo">
-                <img src="img/LogoSlit-small.png" alt="LogoSlit-small.png">
-                <h2>Western Pacific <br> Robotics Academy</h2>
+            <div class="logo">
+                <img src="img/LogoSlit-small.png" alt="LogoSlit"/>
+                <h2 id="logoName">Western Pacific <br> Robotics Academy</h2>
             </div>
         </a>
-    </div>
-    <div class="copyright">
-        &copy; 2023 Your Company Name. All rights reserved.
-    </div>
-</footer>
+        <nav class="nav-links">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li class="navSubMenu"><a href="about.html">ABOUT</a>
+                    <ul>
+                        <li>
+                            <a href="team.html">Team</a>
+                        </li>
+                        <li>
+                            <a href="vex.html">VEX</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="program.html">PROGRAM</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a><span class="underline"></span></li>
+            </ul>
+            <!--menu bar-->
+        </nav>
+    </header>
+
+    <section>
+        <div class="contact-wrapper">
+            <h1>Contact</h1>
+            <div class="contact-body">
+                <div class="company-info">
+                    <div class="info-item address">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <address>7080 River Rd #227, Richmond, <br>
+                            BC V6X 1X5
+                        </address>
+                    </div>
+                    <div class="info-item phone">
+                        <i class="fa-solid fa-phone"></i>
+                        <p><a href="tel:123-456-7890">123-456-7890</a></p>
+                    </div>
+                    <div class="info-item email">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p><a href="mailto:info@mysite.com">info@mysite.com</a></p>
+                    </div>
+                    <div class="info-item media-list">
+                        <i class="fa-sharp fa-solid fa-thumbs-up"></i>
+                        <ul>
+                            <li><a href="#" class="fa-brands fa-facebook-f"></a></li>
+                            <li><a href="#" class="fa-brands fa-weixin"></a></li>
+                            <li><a href="#" class="fa-brands fa-instagram"></a></li>
+                            <li><a href="#" class="fa-brands fa-youtube"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <div class="form-input">
+                        <span class="input-title">First Name</span>
+                        <input id="first-name" type="text" />
+                    </div>
+                
+                    <div class="form-input">
+                        <span class="input-title">Last Name</span>
+                        <input id="last-name" type="text" />
+                    </div>
+                
+                    <div class="form-input">
+                        <span class="input-title">Email *</span>
+                        <input id="email" type="email" />
+                    </div>
+                
+                    <div class="form-input">
+                        <span class="input-title">Message</span>
+                        <input id="message" type="text" />
+                    </div>
+                
+                </form>
+            </div>
+            
+        </div>
+    </section>
+
 </body>
 </html>

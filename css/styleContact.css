@@ -1,0 +1,77 @@
+.contact-wrapper {
+    box-sizing: border-box;
+    width: 90%;
+    max-width: 1300px;
+    padding: 5em;
+    margin: 2em auto;
+}
+
+.contact-wrapper h1 {
+    margin-bottom: 2em;
+}
+
+.contact-body {
+    display: flex;
+}
+
+
+.company-info {
+    width: 50%
+}
+
+.company-info .info-item {
+    font-size: 1.5em;
+    padding: 1em;
+    display: flex;
+    font-family: worksans-extralight,
+        work sans,
+        sans-serif;
+}
+
+.company-info .info-item * {
+    padding-right: 1em;
+    text-decoration: none;
+}
+
+address {
+    font-style: normal;
+}
+
+.company-info ul{
+    font-size: 0.8em;
+    list-style: none;
+    display: flex;
+}
+
+.company-info ul li {
+    box-sizing: border-box;
+    width: 2.5em;
+}
+
+.company-info ul a {
+    width: 100%;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #333;
+}
+
+
+.contact-form {
+    width: 50%;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: worksans-extralight,
+            work sans,
+            sans-serif;
+}
+
+.form-input input {
+    height: 2.5em;
+    border: 2px solid #000;
+    margin-top: 8px;
+}
+
